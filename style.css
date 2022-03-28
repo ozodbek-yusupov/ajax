@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+button {
+    position: absolute;
+}
+.home {
+    top: 20px;
+    left: 20px;
+}
+.courses {
+    top: 20px;
+    right: 20px;
+}
+.contact {
+    bottom: 20px;
+    right: 20px;
+}
+
+.homepage {
+    background-image: url(https://phonoteka.org/uploads/posts/2021-07/1625689876_6-phonoteka-org-p-kosmos-art-oboi-krasivo-6.jpg);
+}
+
+.coursespage {
+    background-image: url(https://likehamster.ru/wp-content/uploads/2018/09/906_result.jpg);
+}
+
+.contactpage {
+    background-image: url(https://gafki.ru/wp-content/uploads/2019/11/kartinka-1.-aljaskinskij-malamut.jpg);
+}
